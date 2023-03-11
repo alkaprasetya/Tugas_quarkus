@@ -10,6 +10,8 @@ quarkus.mailer.host=smtp.gmail.com
 quarkus.mailer.port=587
 quarkus.mailer.username=alkaprasetya17@gmail.com
 quarkus.mailer.password=ypfvczamolzskhyn
+quarkus.mailer.start-tls=REQUIRED
+quarkus.mailer.mock=false
 
 # Eclipse
 .project
