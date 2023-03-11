@@ -22,7 +22,7 @@ public class ItemService {
         Item item = new Item();
         item.name = request.get("name").toString();
         item.count = request.get("count").hashCode();
-        item.price = request.get("prize").hashCode();
+        item.price = request.get("price").hashCode();
         item.type = request.get("type").toString();
         item.description = request.get("description").toString();
 
@@ -40,7 +40,7 @@ public class ItemService {
         }
         item.name = request.get("name").toString();
         item.count = request.get("count").hashCode();
-        item.price = request.get("prize").hashCode();
+        item.price = request.get("price").hashCode();
         item.type = request.get("type").toString();
         item.description = request.get("description").toString();
 
