@@ -30,11 +30,11 @@ public class Item extends PanacheEntityBase {
     @Column(name = "description")
     public String description ;
 
-//    @CreationTimestamp
-//    @Column(name = "created_at")
-//    public LocalDateTime createdAt;
-//
-//    @UpdateTimestamp
-//    @Column(name = "updated_at")
-//    public LocalDateTime updatedAt;
+   @CreationTimestamp
+   @Column(name = "created_at")
+   public LocalDateTime createdAt;
+
+   @UpdateTimestamp
+   @Column(name = "updated_at")
+   public LocalDateTime updatedAt;
 }
